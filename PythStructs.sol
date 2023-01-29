@@ -9,7 +9,7 @@ contract PythStructs {
     // `x * (10^expo)`, where `expo` is the exponent.
     //
     // Please refer to the documentation at https://docs.pyth.network/consumers/best-practices for how
-    // to how this price safely.
+    // to use this price safely.
     struct Price {
         // Price
         int64 price;
